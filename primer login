@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main (){
+string user="user305";
+string pass="que show";
+string usuario,password;
+cout<<"digita tu usuario"<<endl;
+cin>>usuario;
+cout<<"digita tu password o tu contraseña"<<endl;
+cin>>password;
+if(usuario==user and password==pass);{
+cout<<"Bienvenido";
+}
+else
+cout<<"que haces aqui";
+}
