@@ -1,0 +1,22 @@
+#include "iostream"
+int main (){
+flout num1,num2,num3
+cout<<"Digita el numero 1";
+cin>>num1;
+cout<<"Digita el numero 2";
+cin>>num2;
+cout<<"Digita el numero 3";
+cin>>num3;
+if(num2<num1 and num2);
+cout<<"Tu numero 2 es mayor";
+{
+else if(num1=num2 and num1>=num3)
+cout<<"Tu numero 1 es mayor";
+{
+else if(num3>=num1 and num3>=num2)
+cout<<"Tu numero 3 es mayor";
+else{
+cout<<"Tus numeros son iguales";
+{
+return 0;
+{
