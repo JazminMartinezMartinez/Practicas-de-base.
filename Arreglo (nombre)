@@ -1,0 +1,23 @@
+#include <iostream>
+Uso del espacio de nombres std;
+Int main(){
+Int miArreglo[5]=30;
+String nombres[4];
+miArreglo[0]=30;
+miArreglo[1]=70;
+miArreglo[2]=20;
+miArreglo[3]=10;
+miArreglo[4]=40;
+Nombres[0]="Aurora Ruiz" 
+Nombres[1]="Genedi Hernandez" 
+Nombres[2]="Julian Luna" 
+Nombres[3]="Jorge Ramos" 
+Nombres[4]="Sofia Meza" 
+for(Int i=0; 1<=5; i++) {
+cout<<"Elementos:" <<i<<":" <<miarreglo[I] <<endl;
+} 
+for(Int a=0; a<=4; a++){
+cout<<"Los nombres del arreglo son:" <<nombres[a]<<endl;
+} 
+devuelve 0;
+}
