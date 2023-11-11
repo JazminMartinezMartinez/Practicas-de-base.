@@ -1,0 +1,137 @@
+#include<cstdlib>
+#include<iostream>
+#include<conio.h> 
+#include<cadena.h>
+#include<vector>
+#define ENTER 13
+#define RETROCESO 8
+Uso de std de espacio de nombres;
+int num1 , num2, num3 ,res;
+int main(){
+int opc;
+int opc1;
+vector<string> usuarios;
+vector<string> pasar;
+usuarios.push_back ("José");
+usuarios.push_back ("Julián");
+usuarios.push_back ("Mobius");
+usuarios.push_back ("Loki");
+pass.push_back("12345");
+pass.push_back("54321");
+pass.push_back ("hola");
+pass.push_back("usuario");
+string usuario, contraseña;
+int contador = 0;
+bool ingresa = falso;
+do{
+ sistema("cls");
+   cout<<"\t\t\t login de usuario jluna"<<endl;
+   cout<<"\t\t\t-------------------------------"<<endl;
+   cout<<"\n\t Usuario: ";
+   getline(cin,usuario);
+ carácter de carácter;
+ cout<<"\t Contraseña: ";
+ carácter = getch();
+ contraseña = "";
+ while(carácter != ENTER){
+ if(carácter != RETROCESO){
+ password.push_back (carácter);
+        cout<<"*";
+       }
+       else{
+        if(password.length()>0){
+            cout<<"\b \b";
+ contraseña = contraseña.substr(0, contraseña.longitud()-1);
+           }
+       }
+ carácter = getch();
+   }
+   for(int i = 0; i< usuarios.size(); i++){
+    if(usuarios[i] == usuario && pass[i] == password){
+ ingresa = verdadero;
+ quebrar;
+       }
+   }
+   if(!ingresa){
+ cout<<"\n\n El usuario y/o contraseña no son correctos." <<endl;
+    cout<<"\n Tienes 3 intentos para ingresar al sistema: Total de intentos: "<<contador+1<<endl;
+    cin.get();
+ Contador++;
+   }
+} // termina do de login 
+while(ingresa == false && contador < 3);
+    if(ingresa == false){
+ cout<<"\n Revaso el número de intentos permitidos. Hasta luego"<<endl;
+    }
+else{
+do{
+ sistema("cls");
+    cout<<"\n";
+ cout<<"\t\t\t Bienvenido al Menú de Usuario: "<< usuario<<endl;
+    cout<<"\t\t\t ------------------------------------------"<<endl;
+    cout<<"\t\t\t 1.- Suma"<<endl;
+    cout<<"\t\t\t 2.- Resta"<<endl;
+ cout<<"\t\t\t 3.- Multiplicación"<<endl;
+    cout<<"\n";
+ cout<<"\t\t\t Ingrese una opción: ";
+ CIN>>OPC;
+    switch(opc){ // inicia el ciclo do while 
+ Caso 1:
+ sistema("cls");
+           cout<<"\n\n";
+           cout<<"\t\t\t Bievenido al apartado de suma"<<endl;
+           cout<<"\t\t\t ------------------------------"<<endl;
+ cout<<"\t\t\t Digita los números enteros a sumar"<<endl;
+ cout<<"\t\t\t Digita el primer número: ";
+           cin>>num1;
+ cout<<"\t\t\t Digita el segundo número: ";
+           cin>>num2;
+ cout<<"\t\t\t Digita el tercer número: ";
+           cin>>num3;
+           res = num1+num2+num3;
+           cout<<"\n";
+           cout<<"\t\t\t El resultado de la suma de: "<<num1<<"+"<<num2<<"+"<<num3<<"= "<<res<<endl;
+ quebrar;
+ Caso 2:
+ sistema("cls"); 
+           cout<<"\t\t\t Bienvenido a la resta"<<endl;
+           cout<<"\t\t\t ------------------------------"<<endl;
+           cout<<"\t\t\t Digita los numero enteros a restar"<<endl;
+ cout<<"\t\t\t Digita el primer número";
+           cin>>num1;
+ cout<<"\t\t\t Digita el segundo número :";
+           cin>>num2;
+ cout<<"\t\t\t Digita el tercer número :";
+           cin>>num3;
+           res = num1-num2-num3;
+           cout<<"\t\t\t El resultado de la resta es: "<<res;
+ quebrar;
+ Caso 3:
+ sistema("cls"); 
+ cout<<"bienvenido a la multiplicación"<<endl;
+ cout<<"Digita los números enteros a multiplicación"<<endl;
+ cout<<"Digita el primer número";
+           cin>>num1;
+ cout<<"Digita el segundo número :";
+           cin>>num2;
+ cout<<"Digita el tercer número :";
+           cin>>num3;
+           res = num1*num2*num3;
+ cout<<"El resultado de la multiplicación es: "<<res;
+ quebrar;
+ predeterminado:
+ sistema("cls");
+            cout<<"\t\t\t Seleccionaste una opcion no valida"; 
+ quebrar; 
+    } // termina el do
+ cout<<"\t\t\t Deceas seguir con el programa?" <<endl;
+    cout<<"\t\t\t 1.- Si"<<endl;
+    cout<<"\t\t\t 2.- No"<<endl;
+ cout<<"\t\t\t Selecciona una opción: ";
+    cin>>opc1;
+} // termina do while
+while(opc1 == 1);
+} 
+cin.get();
+devuelve 0;
+}
