@@ -1,0 +1,16 @@
+#incluede "iostream" 
+Uso del espacio de nombres std ;
+Int main() {
+Const Int tan arreglo=5;
+Int números [tanarreglo];
+For(Int a=0; <tanarreglo; a++){
+Cout<<"ingrese el numero"<<a+1<<":";
+Cin>>numero[a];
+}
+Cout<<"los números ingresados som:";
+For(Int a=0; <tanarreglo; a++){
+Cout<<"numeros[a]<<"";
+}
+Cout<<endl;
+Retorno 0;
+}
